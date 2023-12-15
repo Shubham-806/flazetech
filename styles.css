@@ -1,0 +1,312 @@
+body{
+    height:100%;
+    width: 100%;
+}
+@font-face {
+    font-family: nb;
+    src: url(./NBInternationalProBoo.ttf);
+}
+@font-face {
+    font-family: rejoy;
+    src: url(./Rejouice-Headline.ttf);
+}
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: nb;
+}
+.page1{
+    height:100vh;
+    width:100%;
+    background-color: #dadada;
+    position: relative;
+}
+.page1 video {
+    height:100vh;
+    width: 100%;
+   object-fit: cover;
+   position: absolute;
+}
+.page1-content{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    z-index: 10;
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:3vw 3vw;
+    width: 95%;
+    padding-bottom: 5vw;
+}
+nav h3{
+    font-size: 1.4vw;
+    font-weight: 100;
+}
+nav h4{
+    font-size: 1.4vw;
+    font-weight: 100;
+}
+.page1-content h1{
+    font-family: rejoy;
+    font-size: 27vw;
+    font-weight: 100;
+}
+.page1-content h1 span{
+    font-family: rejoy;
+    display:inline-block!important ;
+}
+#cursor{
+    height: 7.5vw;
+    width: 7.5vw;
+    border-radius: 50%;
+    background-color: #FF5F38;
+    position: fixed;
+    z-index: 9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translate(-50%,-50%);
+}
+#cursor h5{
+    font-size: 1.15vw;
+    font-weight: 500;
+
+}
+.page2{
+    height: 100vh;
+    width: 95%;
+    position: relative;
+    padding: 5vw 2.8vw;
+}
+.page2-top{
+    display:flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding-bottom: 1.2vw;
+    margin-bottom: 1vw;
+    border-bottom:1px solid black ;
+    
+
+
+}
+.page2-top h3{
+    font-size: 1.7vw;
+    font-weight: 500;
+    width:25%;
+
+}
+#elem{
+    overflow:hidden;
+}
+#elem h1{ 
+    font-size: 4.2vw;
+    font-weight: 500;
+}
+.page3{
+    height: 100vh;
+    width: 95%;
+    position: relative;
+    padding: 0 2.8vw;
+    }
+.page3-top h5{
+    font-size: 1.5vw;
+    font-weight: 500;
+    margin-bottom: 3.5vw;
+}
+.page3-top{
+    text-align: center;
+}
+.page3-top h5 span{
+    border-radius: 19%;
+    background-color: black;
+    color: #dadada;
+    padding:0.2vw;
+    font-size: 0.7vw;
+}
+.page3-top h2{
+    font-size: 4vw;
+    font-weight: 500;
+    padding-bottom: 1vw;
+    text-decoration: underline;
+}
+.pg3-elements {
+    display: flex;
+    /* background-color: #FF5F38; */
+    height:70vh ;
+    width:100%;
+    justify-content:space-between;
+    align-items: center;
+    margin-top: 8vw;
+}
+.pg3-elements .box {
+    justify-content: space-between;
+    /* background-color: blue; */
+    height: 95%;
+    width: 32.5%;
+    position: relative;
+    margin-bottom: 10vw;
+}
+.pg3-elements .box video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.pg3-elements .box img{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    object-fit: cover;
+    transition:all ease 1s;
+}
+.pg3-elements .box:hover img{
+    opacity: 0;
+}
+.page5{
+    height: 95vh;
+    width: 100%;
+    position: relative;
+    padding: 2vw 0;
+}
+.page5 h1{
+    font-size: 10vw;
+    font-family:rejoy;
+    font-weight: 100;
+    border-bottom: 1px solid black;
+    width:96%;
+    margin-left: 2%;
+}
+.swiperdiv{
+    height: 60vh;
+    width:100%;
+    position: relative;
+   margin-top: -5%;
+}
+.swiper {
+    width: 130%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+text-align: center;
+    font-size: 18px;
+    /* background: #ae3030; */
+    display: flex!important ;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    
+    
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 19%;
+    
+    object-fit: cover;
+  }
+  .swiper {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .loader{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    z-index: 99;
+    position: fixed;
+    align-items: center;
+justify-content: center;
+display: flex;
+color: #dadada;
+gap: 10px;
+  }
+  .loader h3{
+    font-size: 2vw;
+  }
+  .page4{
+    height: 95vh;
+    width: 95%;
+    position: relative;
+    padding: 2vw 2.8vw;
+    margin-top: 5vw;;
+}
+.page4-top{
+    padding-bottom: 1.2vw;
+    margin-bottom: 1vw;
+    border-bottom:1px solid black ;
+    
+
+
+}
+.page4-top h3{
+    font-size: 1.7vw;
+    font-weight: 500;
+    width:19%;
+
+}
+#elem3{
+    padding-top: 4vw;
+    overflow:hidden;
+}
+#elem3 h1{ 
+    
+    font-size: 4.2vw;
+    font-weight: 500;
+}
+.page6{
+    height: 6vh;
+    width: 95%;
+    position: relative;
+    padding: 2vw 2.8vw;
+    margin-top: 2vw;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+#elem5{
+    padding-bottom: 4vw;
+    overflow:hidden;
+}
+.page6 h1{
+    font-size: 4.2vw;
+    font-weight: 500;
+    text-decoration: underline;
+
+}
+
+
+
+
+  .footer{
+    height:60vh;
+    width:100%;
+    background-color: black;
+    color: #dadada;
+    margin-bottom: 5vw;
+    
+  }
+.footer h1{
+    font-family: rejoy;
+    font-size: 22vw;
+    font-weight: 100;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    
+}
+#elem6{
+    padding-bottom: 4vw;
+    overflow:hidden;
+}
